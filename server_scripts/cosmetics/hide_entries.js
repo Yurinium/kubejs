@@ -43,6 +43,6 @@ RecipeViewerEvents.removeEntries("item", event => {
   event.remove( "createcasing:chorium_ingot" )
 
   // Unusual Furniture
-  event.remove( "#unusual_furniture:sofas'createmetalwork:crushed_andesite'" )
+  event.remove( "#unusual_furniture:sofas" )
   event.remove( "#unusual_furniture:drawers" )
 })
