@@ -1,7 +1,9 @@
 {
     "include": [
         "./**/*.js",
-        "./**/*.ts"
+        "./**/*.ts",
+        "../../.probe/server/generated-server/*.d.ts",
+        "../../.probe/packages/generated-package/*.d.ts",
     ],
     "compilerOptions": {
         "module": "none",
